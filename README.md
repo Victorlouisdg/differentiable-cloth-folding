@@ -35,6 +35,6 @@ Our experiments show that learning to fold cloth through differentiable simulati
 The fold in the image on top of this page was trained only for 100 training iterations, but already converged after 20 iterations (which equals only 20 seconds of simulated time).
 
 
-We hope that these notebooks can show that writing such a differentiable simulation does not have to intimidating, and that learning control through differentiable simulation is possible.
+We hope that these notebooks can show that writing a differentiable simulation does not have to be intimidating, and that learning control through differentiable simulation is possible.
 Hopefully these notebook have spraked some interest in differentiable simulation and thanks for reading!
 
