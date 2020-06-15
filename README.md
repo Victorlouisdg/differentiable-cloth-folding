@@ -22,7 +22,7 @@ In this section we briefly describe how differentiable simulation can be used to
 The image below shows on the left a run of the the simulation S with a controller C.
 The goal is to find parameters for the controller C that minimizie the loss.
 We will do this by using the gradient of the loss function w.r.t. controller's parameters.
-The gradient tells us, locally in which direction to change the controller's parameter to increase to loss the most.
+The gradient tells us, locally in which direction to change the controller's parameter to increase the loss the most.
 We search for good parameters by iteratively taking small steps in the opposite direction of the gradient, this is called gradient descent.
 The gradient is calculated by backpropagating through the simulation, as shown in the image below on the right.
 
